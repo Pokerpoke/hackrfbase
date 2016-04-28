@@ -58,4 +58,4 @@ void error_msg(char* msg);
 void writetobuf(uint8_t * buf,int buflen);
 int tx_callback(hackrf_transfer* transfer);
 int StartHackRF();
-int SetExplicit(uint64_t iffreq, uint64_t lofreq = DEFAULT_LO_HZ,uint32_t image_reject_selection = RF_PATH_FILTER_BYPASS);#pragma once
+int SetExplicit(uint64_t iffreq, uint64_t lofreq = DEFAULT_LO_HZ,uint32_t image_reject_selection = RF_PATH_FILTER_BYPASS);

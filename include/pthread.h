@@ -237,7 +237,8 @@ enum {
 
 /*
  * This is a duplicate of what is in the autoconf config.h,
- * which is only used when building the pthread-win32 libraries.
+ * which is only used when building the 
+ -win32 libraries.
  */
 
 #ifndef PTW32_CONFIG_H
@@ -304,10 +305,10 @@ enum {
 
 #ifndef HAVE_STRUCT_TIMESPEC
 #define HAVE_STRUCT_TIMESPEC 1
-struct timespec {
-        long tv_sec;
-        long tv_nsec;
-};
+//struct timespec {
+//        long tv_sec;
+//        long tv_nsec;
+//};
 #endif /* HAVE_STRUCT_TIMESPEC */
 
 #ifndef SIG_BLOCK

@@ -24,18 +24,18 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="HackRF.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="readheader.h">
+    <ClInclude Include="hackrf.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="hackrf.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="hackrfbase.cpp">
+    <ClCompile Include="hackrfbase.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
